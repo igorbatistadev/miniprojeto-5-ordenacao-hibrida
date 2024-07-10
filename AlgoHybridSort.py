@@ -50,13 +50,12 @@ class AlgoHybridSort:
         return rightmark
     
     
-    def __selectionSort(self, uma_lista, first, last):
-        for posicao_verificada in range(last, first, -1):
-            posicao_maior = 0
-            for posicao in range(1,posicao_verificada+1):
-                if uma_lista[posicao]>uma_lista[posicao_maior]:
-                    posicao_maior = posicao
-                
-            temp = uma_lista[posicao_verificada]
-            uma_lista[posicao_verificada] = uma_lista[posicao_maior]
-            uma_lista[posicao_maior] = temp
+    def __selectionSort(self, alist, first, last):
+        for fillslot in range(first, last):
+            positionOfMin = fillslot
+
+            for location in range(fillslot + 1, last + 1):
+                if alist[location] < alist[positionOfMin]:
+                    positionOfMin = location
+
+            alist[fillslot], alist[positionOfMin] = alist[positionOfMin], alist[fillslot]
