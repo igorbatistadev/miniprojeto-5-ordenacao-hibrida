@@ -1,0 +1,30 @@
+Resultados do Teste de Desempenho:
+===============================================
+Tamanho do Array: 1000
+    QuickSort: 0.001136 segundos
+    MergeSort: 0.006056 segundos
+    AlgoHybridSort with limit 16: 0.001150 segundos
+    AlgoHybridSort with limit 64: 0.001993 segundos
+    AlgoHybridSort with limit 256: 0.005600 segundos
+===============================================
+Tamanho do Array: 10000
+    QuickSort: 0.015765 segundos
+    MergeSort: 0.043437 segundos
+    AlgoHybridSort with limit 16: 0.014624 segundos
+    AlgoHybridSort with limit 64: 0.026452 segundos
+    AlgoHybridSort with limit 256: 0.056896 segundos
+===============================================
+Tamanho do Array: 50000
+    QuickSort: 0.098514 segundos
+    MergeSort: 0.214706 segundos
+    AlgoHybridSort with limit 16: 0.087253 segundos
+    AlgoHybridSort with limit 64: 0.185685 segundos
+    AlgoHybridSort with limit 256: 0.317309 segundos
+===============================================
+Tamanho do Array: 500000
+    QuickSort: 1.736274 segundos
+    MergeSort: 2.581242 segundos
+    AlgoHybridSort with limit 16: 1.574800 segundos
+    AlgoHybridSort with limit 64: 2.480166 segundos
+    AlgoHybridSort with limit 256: 5.722149 segundos
+===============================================
