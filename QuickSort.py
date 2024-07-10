@@ -15,7 +15,7 @@ class QuickSort:
             self.__quickSortHelper(alist,splitpoint+1,last)
 
 
-    def __partition(alist,first,last):
+    def __partition(self, alist,first,last):
         pivotvalue = alist[first]
 
         leftmark = first+1
